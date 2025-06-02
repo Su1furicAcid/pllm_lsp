@@ -27,7 +27,9 @@ import {
 
 import { spawn } from 'child_process';
 import * as fs from 'fs';
-import * as url from 'url';
+// import * as url from 'url';
+import * as path from 'path';
+import * as os from 'os';
 
 import hoverData from './data/hover/hover_data.js';
 import completionData from './data/completion/completion_data.js';
@@ -217,24 +219,24 @@ connection.languages.diagnostics.on(async (params) => {
 // when the text document first opened or when its content has changed.
 documents.onDidChangeContent(async change => {
 	const diagnostics = await validateTextDocument(change.document);
-	connection.sendDiagnostics({ uri: change.document.uri, diagnostics });
+	await connection.sendDiagnostics({ uri: change.document.uri, diagnostics });
 });
 
 function log(message: string) {
 	fs.appendFileSync('D:/pllm_lsp/server/logs/debug.log', `${new Date().toISOString()}: ${message}\n`);
 }
 
-function uriToFilePath(uri: string): string {
-	const parsed = url.parse(uri);
-	let filePath = decodeURIComponent(parsed.pathname || '');
+// function uriToFilePath(uri: string): string {
+// 	const parsed = url.parse(uri);
+// 	let filePath = decodeURIComponent(parsed.pathname || '');
 
-	// 处理 Windows 路径
-	if (process.platform === 'win32' && filePath.startsWith('/')) {
-		filePath = filePath.substring(1);
-	}
+// 	// 处理 Windows 路径
+// 	if (process.platform === 'win32' && filePath.startsWith('/')) {
+// 		filePath = filePath.substring(1);
+// 	}
 
-	return filePath;
-}
+// 	return filePath;
+// }
 
 async function validateTextDocument(textDocument: TextDocument): Promise<Diagnostic[]> {
 	const settings = await getDocumentSettings(textDocument.uri);
@@ -243,22 +245,10 @@ async function validateTextDocument(textDocument: TextDocument): Promise<Diagnos
 		return [];
 	}
 	return new Promise<Diagnostic[]>((resolve) => {
-		// activate conda
-		const condaActivate = spawn('conda', ['activate', 'pllm']);
-		condaActivate.on('error', (err) => {
-			connection.console.error(`Failed to activate conda environment: ${err}`);
-			resolve([]);
-		});
-		condaActivate.on('close', (code) => {
-			if (code !== 0) {
-				connection.console.error(`Conda activation failed with code ${code}`);
-				resolve([]);
-			} else {
-				log('Conda environment activated successfully');
-			}
-		});
 		// Run the Python diagnostics script
-		const pythonProcess = spawn('python', ['D:/pllm_c/diagnostics.py', uriToFilePath(textDocument.uri)], {
+		const tempFilePath = path.join(os.tmpdir(), `pllm_lsp_${Date.now()}_${Math.random().toString(36).slice(2)}.tmp`);
+		fs.writeFileSync(tempFilePath, textDocument.getText(), 'utf8');
+		const pythonProcess = spawn('python', ['D:/pllm_c/diagnostics.py', tempFilePath], {
 			cwd: 'D:/pllm_c/'
 		});
 		let outputData = '';
@@ -286,18 +276,6 @@ async function validateTextDocument(textDocument: TextDocument): Promise<Diagnos
 				const origin_diagnostics = origin.diagnostics;
 				log(`Parsed diagnostics: ${JSON.stringify(origin_diagnostics)}`);
 				for (const diagnostic of origin_diagnostics) {
-					// diagnostic is expected to be in the format:
-					// {
-					// 	"start": {
-					// 		"line": 2,
-					// 		"column": 5
-					// 	},
-					// 	"end": {
-					// 		"line": 3,
-					// 		"column": 21
-					// 	},
-					// 	"message": "Invalid variable declaration in output block"
-					// }
 					diagnostics.push({
 						severity: DiagnosticSeverity.Error,
 						range: {
