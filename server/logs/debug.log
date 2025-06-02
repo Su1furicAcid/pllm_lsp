@@ -1,0 +1,500 @@
+2025-06-02T04:58:48.968Z: Python process exited with code 1
+2025-06-02T04:58:48.969Z: Output: 
+2025-06-02T04:58:48.969Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:58:48.972Z: Python process exited with code 1
+2025-06-02T04:58:48.972Z: Output: 
+2025-06-02T04:58:48.973Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:58:49.218Z: Python process exited with code 1
+2025-06-02T04:58:49.218Z: Output: 
+2025-06-02T04:58:49.218Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:59:06.898Z: Python process exited with code 1
+2025-06-02T04:59:06.899Z: Output: 
+2025-06-02T04:59:06.899Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:59:06.902Z: Python process exited with code 1
+2025-06-02T04:59:06.902Z: Output: 
+2025-06-02T04:59:06.903Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:59:49.445Z: Python process exited with code 1
+2025-06-02T04:59:49.446Z: Output: 
+2025-06-02T04:59:49.447Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:59:49.447Z: Python process exited with code 1
+2025-06-02T04:59:49.448Z: Output: 
+2025-06-02T04:59:49.448Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T04:59:49.764Z: Python process exited with code 1
+2025-06-02T04:59:49.765Z: Output: 
+2025-06-02T04:59:49.765Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T05:00:06.418Z: Python process exited with code 1
+2025-06-02T05:00:06.419Z: Output: 
+2025-06-02T05:00:06.419Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T05:00:06.422Z: Python process exited with code 1
+2025-06-02T05:00:06.422Z: Output: 
+2025-06-02T05:00:06.423Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T05:00:09.968Z: Python process exited with code 1
+2025-06-02T05:00:09.968Z: Output: 
+2025-06-02T05:00:09.968Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T05:00:09.978Z: Python process exited with code 1
+2025-06-02T05:00:09.978Z: Output: 
+2025-06-02T05:00:09.978Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
+  from parser import parser, ParseError
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 1, in <module>
+    from parser import parser, ParseError
+ImportError: cannot import name 'parser' from 'parser' (unknown location)
+
+2025-06-02T05:01:04.970Z: Python process exited with code 1
+2025-06-02T05:01:04.972Z: Output: 
+2025-06-02T05:01:04.973Z: Error: D:\pllm_c\code_gen.py:88: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if decl_var_expr is not "":
+D:\pllm_c\code_gen.py:187: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if node.value is not "":
+WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 26, in <module>
+    with open(source_code_path, 'r') as file:
+OSError: [Errno 22] Invalid argument: 'file:///c%3A/Users/86178/Desktop/Untitled-1.pllm'
+
+2025-06-02T05:01:04.978Z: Python process exited with code 1
+2025-06-02T05:01:04.979Z: Output: 
+2025-06-02T05:01:04.979Z: Error: D:\pllm_c\code_gen.py:88: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if decl_var_expr is not "":
+D:\pllm_c\code_gen.py:187: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if node.value is not "":
+WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 26, in <module>
+    with open(source_code_path, 'r') as file:
+OSError: [Errno 22] Invalid argument: 'file:///c%3A/Users/86178/Desktop/Untitled-1.pllm'
+
+2025-06-02T05:01:05.249Z: Python process exited with code 1
+2025-06-02T05:01:05.249Z: Output: 
+2025-06-02T05:01:05.250Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 26, in <module>
+    with open(source_code_path, 'r') as file:
+OSError: [Errno 22] Invalid argument: 'file:///c%3A/Users/86178/Desktop/Untitled-1.pllm'
+
+2025-06-02T05:05:15.049Z: Python process exited with code 0
+2025-06-02T05:05:15.050Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 29
+      },
+      "end": {
+        "line": 3,
+        "column": 36
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:05:15.051Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:05:15.052Z: Python process exited with code 0
+2025-06-02T05:05:15.052Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 29
+      },
+      "end": {
+        "line": 3,
+        "column": 36
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:05:15.052Z: Error: D:\pllm_c\code_gen.py:88: SyntaxWarning: "is not" with a literal. Did you mean "!="?
+  if decl_var_expr is not "":
+WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:05:34.670Z: Python process exited with code 0
+2025-06-02T05:05:34.670Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 29
+      },
+      "end": {
+        "line": 3,
+        "column": 36
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:05:34.671Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:11:36.306Z: Python process exited with code 0
+2025-06-02T05:11:36.308Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:11:36.308Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:11:36.308Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
+2025-06-02T05:11:36.309Z: Python process exited with code 0
+2025-06-02T05:11:36.309Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:11:36.310Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:11:36.310Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
+2025-06-02T05:12:37.818Z: Python process exited with code 0
+2025-06-02T05:12:37.819Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:12:37.820Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:12:37.820Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:12:37.820Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
+2025-06-02T05:12:37.829Z: Python process exited with code 0
+2025-06-02T05:12:37.829Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:12:37.829Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:12:37.830Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:12:37.830Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
+2025-06-02T05:13:27.889Z: Python process exited with code 0
+2025-06-02T05:13:27.891Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:27.891Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:27.892Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:27.892Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:27.893Z: Python process exited with code 0
+2025-06-02T05:13:27.893Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:27.893Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:27.894Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:27.894Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:28.248Z: Python process exited with code 0
+2025-06-02T05:13:28.248Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:28.249Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:28.249Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:28.250Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:35.438Z: Python process exited with code 0
+2025-06-02T05:13:35.439Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:35.439Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:35.439Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:35.439Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:35.442Z: Python process exited with code 0
+2025-06-02T05:13:35.442Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:35.442Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:35.443Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:35.443Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:35.577Z: Python process exited with code 0
+2025-06-02T05:13:35.577Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:35.577Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:35.577Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:35.578Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:35.590Z: Python process exited with code 0
+2025-06-02T05:13:35.591Z: Output: {
+  "result": "error",
+  "diagnostic": {
+    "range": {
+      "start": {
+        "line": 3,
+        "column": 30
+      },
+      "end": {
+        "line": 3,
+        "column": 37
+      }
+    },
+    "msg": "Syntax error at 'article'"
+  }
+}
+
+2025-06-02T05:13:35.591Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:35.591Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
+2025-06-02T05:13:35.591Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
+2025-06-02T05:13:47.679Z: Python process exited with code 0
+2025-06-02T05:13:47.680Z: Output: {
+  "result": "success",
+  "diagnostic": {}
+}
+
+2025-06-02T05:13:47.680Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:47.680Z: Parsed diagnostics: {"result":"success","diagnostic":{}}
+2025-06-02T05:13:47.681Z: Diagnostics: []
+2025-06-02T05:13:47.692Z: Python process exited with code 0
+2025-06-02T05:13:47.692Z: Output: {
+  "result": "success",
+  "diagnostic": {}
+}
+
+2025-06-02T05:13:47.693Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T05:13:47.693Z: Parsed diagnostics: {"result":"success","diagnostic":{}}
+2025-06-02T05:13:47.694Z: Diagnostics: []

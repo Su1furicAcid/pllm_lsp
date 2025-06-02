@@ -25,6 +25,10 @@ import {
 	TextDocument
 } from 'vscode-languageserver-textdocument';
 
+import { spawn } from 'child_process';
+import * as fs from 'fs';
+import * as url from 'url';
+
 import hoverData from './data/hover/hover_data.js';
 import completionData from './data/completion/completion_data.js';
 
@@ -37,7 +41,7 @@ const documents = new TextDocuments(TextDocument);
 
 let hasConfigurationCapability = false;
 let hasWorkspaceFolderCapability = false;
-let hasDiagnosticRelatedInformationCapability = false;
+// let hasDiagnosticRelatedInformationCapability = false;
 
 connection.onInitialize((params: InitializeParams) => {
 	const capabilities = params.capabilities;
@@ -50,11 +54,11 @@ connection.onInitialize((params: InitializeParams) => {
 	hasWorkspaceFolderCapability = !!(
 		capabilities.workspace && !!capabilities.workspace.workspaceFolders
 	);
-	hasDiagnosticRelatedInformationCapability = !!(
-		capabilities.textDocument &&
-		capabilities.textDocument.publishDiagnostics &&
-		capabilities.textDocument.publishDiagnostics.relatedInformation
-	);
+	// hasDiagnosticRelatedInformationCapability = !!(
+	// 	capabilities.textDocument &&
+	// 	capabilities.textDocument.publishDiagnostics &&
+	// 	capabilities.textDocument.publishDiagnostics.relatedInformation
+	// );
 
 	const result: InitializeResult = {
 		capabilities: {
@@ -211,53 +215,92 @@ connection.languages.diagnostics.on(async (params) => {
 
 // The content of a text document has changed. This event is emitted
 // when the text document first opened or when its content has changed.
-documents.onDidChangeContent(change => {
-	validateTextDocument(change.document);
+documents.onDidChangeContent(async change => {
+	const diagnostics = await validateTextDocument(change.document);
+	connection.sendDiagnostics({ uri: change.document.uri, diagnostics });
 });
 
-async function validateTextDocument(textDocument: TextDocument): Promise<Diagnostic[]> {
-	// In this simple example we get the settings for every validate run.
-	const settings = await getDocumentSettings(textDocument.uri);
+function log(message: string) {
+	fs.appendFileSync('D:/pllm_lsp/server/logs/debug.log', `${new Date().toISOString()}: ${message}\n`);
+}
 
-	// The validator creates diagnostics for all uppercase words length 2 and more
-	const text = textDocument.getText();
-	const pattern = /\b[A-Z]{2,}\b/g;
-	let m: RegExpExecArray | null;
+function uriToFilePath(uri: string): string {
+	const parsed = url.parse(uri);
+	let filePath = decodeURIComponent(parsed.pathname || '');
 
-	let problems = 0;
-	const diagnostics: Diagnostic[] = [];
-	while ((m = pattern.exec(text)) && problems < settings.maxNumberOfProblems) {
-		problems++;
-		const diagnostic: Diagnostic = {
-			severity: DiagnosticSeverity.Warning,
-			range: {
-				start: textDocument.positionAt(m.index),
-				end: textDocument.positionAt(m.index + m[0].length)
-			},
-			message: `${m[0]} is all uppercase.`,
-			source: 'ex'
-		};
-		if (hasDiagnosticRelatedInformationCapability) {
-			diagnostic.relatedInformation = [
-				{
-					location: {
-						uri: textDocument.uri,
-						range: Object.assign({}, diagnostic.range)
-					},
-					message: 'Spelling matters'
-				},
-				{
-					location: {
-						uri: textDocument.uri,
-						range: Object.assign({}, diagnostic.range)
-					},
-					message: 'Particularly for names'
-				}
-			];
-		}
-		diagnostics.push(diagnostic);
+	// 处理 Windows 路径
+	if (process.platform === 'win32' && filePath.startsWith('/')) {
+		filePath = filePath.substring(1);
 	}
-	return diagnostics;
+
+	return filePath;
+}
+
+async function validateTextDocument(textDocument: TextDocument): Promise<Diagnostic[]> {
+	const settings = await getDocumentSettings(textDocument.uri);
+	if (settings.maxNumberOfProblems <= 0) {
+		// No validation needed
+		return [];
+	}
+	return new Promise<Diagnostic[]>((resolve) => {
+		// activate conda
+		const condaActivate = spawn('conda', ['activate', 'pllm']);
+		condaActivate.on('error', (err) => {
+			connection.console.error(`Failed to activate conda environment: ${err}`);
+			resolve([]);
+		});
+		condaActivate.on('close', (code) => {
+			if (code !== 0) {
+				connection.console.error(`Conda activation failed with code ${code}`);
+				resolve([]);
+			} else {
+				log('Conda environment activated successfully');
+			}
+		});
+		// Run the Python diagnostics script
+		const pythonProcess = spawn('python', ['D:/pllm_c/diagnostics.py', uriToFilePath(textDocument.uri)], {
+			cwd: 'D:/pllm_c/'
+		});
+		let outputData = '';
+		let errorData = '';
+		pythonProcess.stdout.on('data', (data) => {
+			outputData += data.toString();
+		});
+		pythonProcess.stderr.on('data', (data) => {
+			errorData += data.toString();
+		});
+		pythonProcess.on('close', (code) => {
+			log(`Python process exited with code ${code}`);
+			log(`Output: ${outputData}`);
+			log(`Error: ${errorData}`);
+			const diagnostics: Diagnostic[] = [];
+			if (code !== 0) {
+				connection.console.error(`Python process exited with code ${code}`);
+				connection.console.error(`Error: ${errorData}`);
+				return resolve(diagnostics);
+			}
+			try {
+				const python_diag = JSON.parse(outputData);
+				const diagnostic = python_diag.diagnostic;
+				log(`Parsed diagnostics: ${JSON.stringify(python_diag)}`);
+				if (diagnostic) {
+					diagnostics.push({
+						severity: DiagnosticSeverity.Error,
+						range: {
+							start: { line: diagnostic.range.start.line - 1, character: diagnostic.range.start.column - 1 },
+							end: { line: diagnostic.range.end.line - 1, character: diagnostic.range.end.column - 1 }
+						},
+						message: diagnostic.msg,
+						source: 'diagnostics'
+					});
+				}
+			} catch (e) {
+				connection.console.error(`Failed to parse diagnostics: ${e}`);
+			}
+			log(`Diagnostics: ${JSON.stringify(diagnostics)}`);
+			resolve(diagnostics);
+		});
+	});
 }
 
 connection.onDidChangeWatchedFiles(_change => {
