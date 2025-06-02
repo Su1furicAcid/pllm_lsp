@@ -1,500 +1,787 @@
-2025-06-02T04:58:48.968Z: Python process exited with code 1
-2025-06-02T04:58:48.969Z: Output: 
-2025-06-02T04:58:48.969Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:58:48.972Z: Python process exited with code 1
-2025-06-02T04:58:48.972Z: Output: 
-2025-06-02T04:58:48.973Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:58:49.218Z: Python process exited with code 1
-2025-06-02T04:58:49.218Z: Output: 
-2025-06-02T04:58:49.218Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:59:06.898Z: Python process exited with code 1
-2025-06-02T04:59:06.899Z: Output: 
-2025-06-02T04:59:06.899Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:59:06.902Z: Python process exited with code 1
-2025-06-02T04:59:06.902Z: Output: 
-2025-06-02T04:59:06.903Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:59:49.445Z: Python process exited with code 1
-2025-06-02T04:59:49.446Z: Output: 
-2025-06-02T04:59:49.447Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:59:49.447Z: Python process exited with code 1
-2025-06-02T04:59:49.448Z: Output: 
-2025-06-02T04:59:49.448Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T04:59:49.764Z: Python process exited with code 1
-2025-06-02T04:59:49.765Z: Output: 
-2025-06-02T04:59:49.765Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T05:00:06.418Z: Python process exited with code 1
-2025-06-02T05:00:06.419Z: Output: 
-2025-06-02T05:00:06.419Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T05:00:06.422Z: Python process exited with code 1
-2025-06-02T05:00:06.422Z: Output: 
-2025-06-02T05:00:06.423Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T05:00:09.968Z: Python process exited with code 1
-2025-06-02T05:00:09.968Z: Output: 
-2025-06-02T05:00:09.968Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T05:00:09.978Z: Python process exited with code 1
-2025-06-02T05:00:09.978Z: Output: 
-2025-06-02T05:00:09.978Z: Error: D:\pllm_c\diagnostics.py:1: DeprecationWarning: The parser module is deprecated and will be removed in future versions of Python
-  from parser import parser, ParseError
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 1, in <module>
-    from parser import parser, ParseError
-ImportError: cannot import name 'parser' from 'parser' (unknown location)
-
-2025-06-02T05:01:04.970Z: Python process exited with code 1
-2025-06-02T05:01:04.972Z: Output: 
-2025-06-02T05:01:04.973Z: Error: D:\pllm_c\code_gen.py:88: SyntaxWarning: "is not" with a literal. Did you mean "!="?
-  if decl_var_expr is not "":
-D:\pllm_c\code_gen.py:187: SyntaxWarning: "is not" with a literal. Did you mean "!="?
-  if node.value is not "":
-WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 26, in <module>
-    with open(source_code_path, 'r') as file:
-OSError: [Errno 22] Invalid argument: 'file:///c%3A/Users/86178/Desktop/Untitled-1.pllm'
-
-2025-06-02T05:01:04.978Z: Python process exited with code 1
-2025-06-02T05:01:04.979Z: Output: 
-2025-06-02T05:01:04.979Z: Error: D:\pllm_c\code_gen.py:88: SyntaxWarning: "is not" with a literal. Did you mean "!="?
-  if decl_var_expr is not "":
-D:\pllm_c\code_gen.py:187: SyntaxWarning: "is not" with a literal. Did you mean "!="?
-  if node.value is not "":
-WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 26, in <module>
-    with open(source_code_path, 'r') as file:
-OSError: [Errno 22] Invalid argument: 'file:///c%3A/Users/86178/Desktop/Untitled-1.pllm'
-
-2025-06-02T05:01:05.249Z: Python process exited with code 1
-2025-06-02T05:01:05.249Z: Output: 
-2025-06-02T05:01:05.250Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-Traceback (most recent call last):
-  File "D:\pllm_c\diagnostics.py", line 26, in <module>
-    with open(source_code_path, 'r') as file:
-OSError: [Errno 22] Invalid argument: 'file:///c%3A/Users/86178/Desktop/Untitled-1.pllm'
-
-2025-06-02T05:05:15.049Z: Python process exited with code 0
-2025-06-02T05:05:15.050Z: Output: {
+2025-06-02T13:33:46.162Z: Python process exited with code 0
+2025-06-02T13:33:46.164Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 29
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 36
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:05:15.051Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:05:15.052Z: Python process exited with code 0
-2025-06-02T05:05:15.052Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 29
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 36
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:05:15.052Z: Error: D:\pllm_c\code_gen.py:88: SyntaxWarning: "is not" with a literal. Did you mean "!="?
-  if decl_var_expr is not "":
-WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:46.164Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:05:34.670Z: Python process exited with code 0
-2025-06-02T05:05:34.670Z: Output: {
+2025-06-02T13:33:46.165Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:46.165Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:33:46.168Z: Python process exited with code 0
+2025-06-02T13:33:46.168Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 29
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 36
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:05:34.671Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:11:36.306Z: Python process exited with code 0
-2025-06-02T05:11:36.308Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 30
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:11:36.308Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:46.169Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:11:36.308Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
-2025-06-02T05:11:36.309Z: Python process exited with code 0
-2025-06-02T05:11:36.309Z: Output: {
+2025-06-02T13:33:46.169Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:46.169Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:33:46.320Z: Python process exited with code 0
+2025-06-02T13:33:46.320Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 30
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:11:36.310Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:11:36.310Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
-2025-06-02T05:12:37.818Z: Python process exited with code 0
-2025-06-02T05:12:37.819Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 30
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:12:37.820Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:46.320Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:12:37.820Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:12:37.820Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
-2025-06-02T05:12:37.829Z: Python process exited with code 0
-2025-06-02T05:12:37.829Z: Output: {
+2025-06-02T13:33:46.321Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:46.321Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:33:54.566Z: Python process exited with code 0
+2025-06-02T13:33:54.567Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 30
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:12:37.829Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:12:37.830Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:12:37.830Z: Diagnostics: [{"severity":1,"range":{"start":{"line":null,"character":null},"end":{"line":null}},"source":"diagnostics"}]
-2025-06-02T05:13:27.889Z: Python process exited with code 0
-2025-06-02T05:13:27.891Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 30
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:13:27.891Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:54.567Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:13:27.892Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:27.892Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:27.893Z: Python process exited with code 0
-2025-06-02T05:13:27.893Z: Output: {
+2025-06-02T13:33:54.568Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:54.569Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:33:54.585Z: Python process exited with code 0
+2025-06-02T13:33:54.586Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 30
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:13:27.893Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:13:27.894Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:27.894Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:28.248Z: Python process exited with code 0
-2025-06-02T05:13:28.248Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 30
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:13:28.249Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:54.586Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:13:28.249Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:28.250Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:35.438Z: Python process exited with code 0
-2025-06-02T05:13:35.439Z: Output: {
+2025-06-02T13:33:54.587Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:54.587Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:33:54.634Z: Python process exited with code 0
+2025-06-02T13:33:54.635Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 30
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:13:35.439Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:13:35.439Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:35.439Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:35.442Z: Python process exited with code 0
-2025-06-02T05:13:35.442Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 30
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:13:35.442Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:54.636Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:13:35.443Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:35.443Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:35.577Z: Python process exited with code 0
-2025-06-02T05:13:35.577Z: Output: {
+2025-06-02T13:33:54.636Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:54.636Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:33:54.791Z: Python process exited with code 0
+2025-06-02T13:33:54.791Z: Output: {
   "result": "error",
-  "diagnostic": {
-    "range": {
+  "diagnostics": [
+    {
       "start": {
         "line": 3,
-        "column": 30
+        "column": 0
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
     },
-    "msg": "Syntax error at 'article'"
-  }
-}
-
-2025-06-02T05:13:35.577Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-02T05:13:35.577Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:35.578Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:35.590Z: Python process exited with code 0
-2025-06-02T05:13:35.591Z: Output: {
-  "result": "error",
-  "diagnostic": {
-    "range": {
+    {
       "start": {
-        "line": 3,
-        "column": 30
+        "line": 2,
+        "column": 5
       },
       "end": {
         "line": 3,
-        "column": 37
-      }
-    },
-    "msg": "Syntax error at 'article'"
-  }
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
 }
 
-2025-06-02T05:13:35.591Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:33:54.792Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:13:35.591Z: Parsed diagnostics: {"result":"error","diagnostic":{"range":{"start":{"line":3,"column":30},"end":{"line":3,"column":37}},"msg":"Syntax error at 'article'"}}
-2025-06-02T05:13:35.591Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":29},"end":{"line":2,"character":36}},"message":"Syntax error at 'article'","source":"diagnostics"}]
-2025-06-02T05:13:47.679Z: Python process exited with code 0
-2025-06-02T05:13:47.680Z: Output: {
+2025-06-02T13:33:54.792Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:33:54.792Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:34:03.352Z: Python process exited with code 0
+2025-06-02T13:34:03.352Z: Output: {
   "result": "success",
-  "diagnostic": {}
+  "diagnostics": []
 }
 
-2025-06-02T05:13:47.680Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:34:03.352Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:13:47.680Z: Parsed diagnostics: {"result":"success","diagnostic":{}}
-2025-06-02T05:13:47.681Z: Diagnostics: []
-2025-06-02T05:13:47.692Z: Python process exited with code 0
-2025-06-02T05:13:47.692Z: Output: {
+2025-06-02T13:34:03.353Z: Parsed diagnostics: []
+2025-06-02T13:34:03.353Z: Diagnostics: []
+2025-06-02T13:34:03.354Z: Python process exited with code 0
+2025-06-02T13:34:03.355Z: Output: {
   "result": "success",
-  "diagnostic": {}
+  "diagnostics": []
 }
 
-2025-06-02T05:13:47.693Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-02T13:34:03.355Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-02T05:13:47.693Z: Parsed diagnostics: {"result":"success","diagnostic":{}}
-2025-06-02T05:13:47.694Z: Diagnostics: []
+2025-06-02T13:34:03.355Z: Parsed diagnostics: []
+2025-06-02T13:34:03.356Z: Diagnostics: []
+2025-06-02T13:34:04.168Z: Python process exited with code 0
+2025-06-02T13:34:04.169Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:04.169Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:04.170Z: Parsed diagnostics: []
+2025-06-02T13:34:04.171Z: Diagnostics: []
+2025-06-02T13:34:04.182Z: Python process exited with code 0
+2025-06-02T13:34:04.182Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:04.183Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:04.183Z: Parsed diagnostics: []
+2025-06-02T13:34:04.183Z: Diagnostics: []
+2025-06-02T13:34:07.389Z: Python process exited with code 0
+2025-06-02T13:34:07.389Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:07.390Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:07.390Z: Parsed diagnostics: []
+2025-06-02T13:34:07.391Z: Diagnostics: []
+2025-06-02T13:34:07.393Z: Python process exited with code 0
+2025-06-02T13:34:07.393Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:07.394Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:07.394Z: Parsed diagnostics: []
+2025-06-02T13:34:07.394Z: Diagnostics: []
+2025-06-02T13:34:07.565Z: Python process exited with code 0
+2025-06-02T13:34:07.566Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:07.566Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:07.566Z: Parsed diagnostics: []
+2025-06-02T13:34:07.567Z: Diagnostics: []
+2025-06-02T13:34:07.574Z: Python process exited with code 0
+2025-06-02T13:34:07.575Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:07.576Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:07.576Z: Parsed diagnostics: []
+2025-06-02T13:34:07.576Z: Diagnostics: []
+2025-06-02T13:34:31.056Z: Python process exited with code 0
+2025-06-02T13:34:31.057Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:34:31.057Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:31.057Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:34:31.058Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:34:31.059Z: Python process exited with code 0
+2025-06-02T13:34:31.059Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:34:31.060Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:31.060Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:34:31.060Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:34:33.206Z: Python process exited with code 0
+2025-06-02T13:34:33.207Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 21
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:34:33.207Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:33.207Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":21},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:34:33.208Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":21}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:34:33.221Z: Python process exited with code 0
+2025-06-02T13:34:33.221Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 21
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:34:33.222Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:33.222Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":21},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:34:33.222Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":21}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:34:43.794Z: Python process exited with code 0
+2025-06-02T13:34:43.794Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:43.794Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:43.795Z: Parsed diagnostics: []
+2025-06-02T13:34:43.795Z: Diagnostics: []
+2025-06-02T13:34:43.821Z: Python process exited with code 0
+2025-06-02T13:34:43.821Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:43.822Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:43.823Z: Parsed diagnostics: []
+2025-06-02T13:34:43.823Z: Diagnostics: []
+2025-06-02T13:34:43.865Z: Python process exited with code 0
+2025-06-02T13:34:43.865Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:43.866Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:43.866Z: Parsed diagnostics: []
+2025-06-02T13:34:43.866Z: Diagnostics: []
+2025-06-02T13:34:43.977Z: Python process exited with code 0
+2025-06-02T13:34:43.978Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:43.978Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:43.978Z: Parsed diagnostics: []
+2025-06-02T13:34:43.979Z: Diagnostics: []
+2025-06-02T13:34:53.990Z: Python process exited with code 0
+2025-06-02T13:34:53.991Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:53.991Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:53.992Z: Parsed diagnostics: []
+2025-06-02T13:34:53.992Z: Diagnostics: []
+2025-06-02T13:34:53.999Z: Python process exited with code 0
+2025-06-02T13:34:54.000Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:34:54.000Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:34:54.001Z: Parsed diagnostics: []
+2025-06-02T13:34:54.001Z: Diagnostics: []
+2025-06-02T13:35:01.124Z: Python process exited with code 0
+2025-06-02T13:35:01.125Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 21
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:35:01.125Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:01.125Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":21},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:35:01.126Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":21}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:35:01.127Z: Python process exited with code 0
+2025-06-02T13:35:01.128Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 21
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:35:01.128Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:01.128Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":21},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:35:01.128Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":21}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:35:06.181Z: Python process exited with code 0
+2025-06-02T13:35:06.182Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:35:06.182Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:06.182Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:35:06.183Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:35:06.195Z: Python process exited with code 0
+2025-06-02T13:35:06.196Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strrr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 22
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:35:06.197Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:06.197Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strrr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":22},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:35:06.198Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strrr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":22}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:35:08.237Z: Python process exited with code 0
+2025-06-02T13:35:08.238Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 21
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:35:08.238Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:08.238Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":21},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:35:08.239Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":21}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:35:08.242Z: Python process exited with code 0
+2025-06-02T13:35:08.242Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 0
+      },
+      "end": {
+        "line": 3,
+        "column": 0
+      },
+      "message": "Syntax error at token 'strr'"
+    },
+    {
+      "start": {
+        "line": 2,
+        "column": 5
+      },
+      "end": {
+        "line": 3,
+        "column": 21
+      },
+      "message": "Invalid variable declaration in input block"
+    }
+  ]
+}
+
+2025-06-02T13:35:08.243Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:08.243Z: Parsed diagnostics: [{"start":{"line":3,"column":0},"end":{"line":3,"column":0},"message":"Syntax error at token 'strr'"},{"start":{"line":2,"column":5},"end":{"line":3,"column":21},"message":"Invalid variable declaration in input block"}]
+2025-06-02T13:35:08.243Z: Diagnostics: [{"severity":1,"range":{"start":{"line":3,"character":0},"end":{"line":3,"character":0}},"message":"Syntax error at token 'strr'","source":"diagnostics"},{"severity":1,"range":{"start":{"line":2,"character":5},"end":{"line":3,"character":21}},"message":"Invalid variable declaration in input block","source":"diagnostics"}]
+2025-06-02T13:35:28.098Z: Python process exited with code 0
+2025-06-02T13:35:28.099Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:35:28.099Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:28.099Z: Parsed diagnostics: []
+2025-06-02T13:35:28.100Z: Diagnostics: []
+2025-06-02T13:35:28.104Z: Python process exited with code 0
+2025-06-02T13:35:28.105Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-02T13:35:28.106Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-02T13:35:28.106Z: Parsed diagnostics: []
+2025-06-02T13:35:28.107Z: Diagnostics: []

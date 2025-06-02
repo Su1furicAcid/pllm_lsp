@@ -280,17 +280,31 @@ async function validateTextDocument(textDocument: TextDocument): Promise<Diagnos
 				return resolve(diagnostics);
 			}
 			try {
-				const python_diag = JSON.parse(outputData);
-				const diagnostic = python_diag.diagnostic;
-				log(`Parsed diagnostics: ${JSON.stringify(python_diag)}`);
-				if (diagnostic) {
+				const origin = JSON.parse(outputData);
+				const origin_result = origin.result;
+				if (origin_result == 'success') { resolve([]); }
+				const origin_diagnostics = origin.diagnostics;
+				log(`Parsed diagnostics: ${JSON.stringify(origin_diagnostics)}`);
+				for (const diagnostic of origin_diagnostics) {
+					// diagnostic is expected to be in the format:
+					// {
+					// 	"start": {
+					// 		"line": 2,
+					// 		"column": 5
+					// 	},
+					// 	"end": {
+					// 		"line": 3,
+					// 		"column": 21
+					// 	},
+					// 	"message": "Invalid variable declaration in output block"
+					// }
 					diagnostics.push({
 						severity: DiagnosticSeverity.Error,
 						range: {
-							start: { line: diagnostic.range.start.line - 1, character: diagnostic.range.start.column - 1 },
-							end: { line: diagnostic.range.end.line - 1, character: diagnostic.range.end.column - 1 }
+							start: { line: diagnostic.start.line, character: diagnostic.start.column },
+							end: { line: diagnostic.end.line, character: diagnostic.end.column }
 						},
-						message: diagnostic.msg,
+						message: diagnostic.message,
 						source: 'diagnostics'
 					});
 				}
