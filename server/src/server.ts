@@ -279,8 +279,8 @@ async function validateTextDocument(textDocument: TextDocument): Promise<Diagnos
 					diagnostics.push({
 						severity: DiagnosticSeverity.Error,
 						range: {
-							start: { line: diagnostic.start.line, character: diagnostic.start.column },
-							end: { line: diagnostic.end.line, character: diagnostic.end.column }
+							start: { line: diagnostic.start.line - 1, character: diagnostic.start.column },
+							end: { line: diagnostic.end.line - 1, character: diagnostic.end.column }
 						},
 						message: diagnostic.message,
 						source: 'diagnostics'
