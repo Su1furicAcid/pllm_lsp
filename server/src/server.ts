@@ -270,7 +270,12 @@ async function validateTextDocument(textDocument: TextDocument): Promise<Diagnos
 				return resolve(diagnostics);
 			}
 			try {
-				const origin = JSON.parse(outputData);
+				const match = outputData.match(/\{[\s\S]*\}$/m);
+				if (!match) {
+					connection.console.error('No JSON found in output');
+					return resolve([]);
+				}
+				const origin = JSON.parse(match[0]);
 				const origin_result = origin.result;
 				if (origin_result == 'success') { resolve([]); }
 				const origin_diagnostics = origin.diagnostics;
@@ -279,8 +284,8 @@ async function validateTextDocument(textDocument: TextDocument): Promise<Diagnos
 					diagnostics.push({
 						severity: DiagnosticSeverity.Error,
 						range: {
-							start: { line: diagnostic.start.line - 1, character: diagnostic.start.column },
-							end: { line: diagnostic.end.line - 1, character: diagnostic.end.column }
+							start: { line: Math.max(diagnostic.start.line - 1, 0), character: diagnostic.start.column },
+							end: { line: Math.max(diagnostic.end.line - 1, 0), character: Math.max(diagnostic.end.column, diagnostic.start.column + 10) }
 						},
 						message: diagnostic.message,
 						source: 'diagnostics'
