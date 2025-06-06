@@ -138,7 +138,12 @@ connection.onCompletion(
 		const text = document.getText();
 		const word = sliceCurrentWord(text, offset);
 		if (!word) { return []; }
-		return completionData.keywords
+		const allItems = [
+			...completionData.keywords,
+			...completionData.intra_funcs,
+			...completionData.types
+		];
+		return allItems
 			.filter(c => c.startsWith(word))
 			.map((c, idx) => ({
 				label: c,

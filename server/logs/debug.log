@@ -1,2193 +1,2582 @@
-2025-06-05T13:29:20.365Z: Python process exited with code 0
-2025-06-05T13:29:20.365Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:05.860Z: Python process exited with code 0
+2025-06-06T06:50:05.861Z: Output: None
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:50:05.861Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:50:05.861Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:50:05.862Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:50:05.862Z: Python process exited with code 0
+2025-06-06T06:50:05.863Z: Output: None
+{
+  "result": "error",
+  "diagnostics": [
     {
       "start": {
-        "line": 56,
-        "column": 9
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 56,
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:50:05.863Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:50:05.863Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:50:05.864Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:50:06.138Z: Python process exited with code 0
+2025-06-06T06:50:06.139Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
+{
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:29:20.366Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:06.139Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:29:20.366Z: Diagnostics: []
-2025-06-05T13:29:20.370Z: Python process exited with code 0
-2025-06-05T13:29:20.370Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:06.140Z: Diagnostics: []
+2025-06-06T06:50:06.141Z: Python process exited with code 0
+2025-06-06T06:50:06.141Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:29:20.370Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:06.142Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:29:20.371Z: Diagnostics: []
-2025-06-05T13:29:20.376Z: Python process exited with code 0
-2025-06-05T13:29:20.376Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:06.142Z: Diagnostics: []
+2025-06-06T06:50:23.525Z: Python process exited with code 1
+2025-06-06T06:50:23.526Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='st', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 10}, 'end': {'line': 2, 'column': 12}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 12}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:23.526Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: st
+
+2025-06-06T06:50:23.527Z: Python process exited with code 1
+2025-06-06T06:50:23.528Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='st', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 10}, 'end': {'line': 2, 'column': 12}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 12}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:23.528Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: st
+
+2025-06-06T06:50:23.677Z: Python process exited with code 1
+2025-06-06T06:50:23.678Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:23.678Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:23.722Z: Python process exited with code 1
+2025-06-06T06:50:23.722Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:23.723Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:23.822Z: Python process exited with code 0
+2025-06-06T06:50:23.822Z: Output: Program(body=[AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) any any
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
+        "line": 2,
         "column": 0
       },
       "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:29:20.376Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:29:20.377Z: Diagnostics: []
-2025-06-05T13:29:20.475Z: Python process exited with code 0
-2025-06-05T13:29:20.476Z: Output: 56:9 ~ 56:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:29:20.476Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:29:20.477Z: Diagnostics: []
-2025-06-05T13:29:23.154Z: Python process exited with code 0
-2025-06-05T13:29:23.154Z: Output: 56:9 ~ 56:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:29:23.154Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:29:23.155Z: Diagnostics: []
-2025-06-05T13:29:23.156Z: Python process exited with code 0
-2025-06-05T13:29:23.156Z: Output: 56:9 ~ 56:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:29:23.156Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:29:23.156Z: Diagnostics: []
-2025-06-05T13:30:03.518Z: Python process exited with code 0
-2025-06-05T13:30:03.518Z: Output: 56:9 ~ 56:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:30:03.518Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:30:03.519Z: Diagnostics: []
-2025-06-05T13:30:03.522Z: Python process exited with code 0
-2025-06-05T13:30:03.523Z: Output: 56:9 ~ 56:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:30:03.523Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:30:03.523Z: Diagnostics: []
-2025-06-05T13:30:03.674Z: Python process exited with code 0
-2025-06-05T13:30:03.675Z: Output: 56:9 ~ 56:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
+        "line": 2,
         "column": 0
       },
       "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:03.675Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:23.822Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:03.675Z: Diagnostics: []
-2025-06-05T13:30:03.676Z: Python process exited with code 0
-2025-06-05T13:30:03.676Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:23.823Z: Diagnostics: []
+2025-06-06T06:50:23.901Z: Python process exited with code 0
+2025-06-06T06:50:23.902Z: Output: Program(body=[AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) any any
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 2,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 2,
         "column": 0
       },
       "message": "Syntax error at token '='"
-    },
+    }
+  ]
+}
+
+2025-06-06T06:50:23.902Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:50:23.903Z: Diagnostics: []
+2025-06-06T06:50:24.573Z: Python process exited with code 1
+2025-06-06T06:50:24.573Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:24.574Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:24.588Z: Python process exited with code 1
+2025-06-06T06:50:24.589Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:24.589Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:24.644Z: Python process exited with code 0
+2025-06-06T06:50:24.644Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
+{
+  "result": "error",
+  "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:03.676Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:24.645Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:03.677Z: Diagnostics: []
-2025-06-05T13:30:03.800Z: Python process exited with code 0
-2025-06-05T13:30:03.800Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:24.646Z: Diagnostics: []
+2025-06-06T06:50:24.647Z: Python process exited with code 1
+2025-06-06T06:50:24.647Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='st', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 10}, 'end': {'line': 2, 'column': 12}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 12}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:24.648Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: st
+
+2025-06-06T06:50:24.658Z: Python process exited with code 1
+2025-06-06T06:50:24.659Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='stre', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 12}, 'end': {'line': 2, 'column': 14}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 14}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:24.659Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: stre
+
+2025-06-06T06:50:24.758Z: Python process exited with code 1
+2025-06-06T06:50:24.759Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='stre', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 12}, 'end': {'line': 2, 'column': 14}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 14}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:24.759Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: stre
+
+2025-06-06T06:50:25.146Z: Python process exited with code 0
+2025-06-06T06:50:25.146Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 3,
+        "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
+      },
+      "message": "Type Error"
+    }
+  ]
+}
+
+2025-06-06T06:50:25.147Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:50:25.148Z: Diagnostics: []
+2025-06-06T06:50:25.148Z: Python process exited with code 0
+2025-06-06T06:50:25.149Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
+{
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 3,
+        "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
+      },
+      "message": "Type Error"
+    }
+  ]
+}
+
+2025-06-06T06:50:25.149Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:50:25.150Z: Diagnostics: []
+2025-06-06T06:50:25.241Z: Python process exited with code 1
+2025-06-06T06:50:25.242Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='st', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 10}, 'end': {'line': 2, 'column': 12}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 12}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:25.242Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: st
+
+2025-06-06T06:50:25.323Z: Python process exited with code 1
+2025-06-06T06:50:25.323Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='st', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 10}, 'end': {'line': 2, 'column': 12}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 12}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:25.324Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: st
+
+2025-06-06T06:50:25.389Z: Python process exited with code 1
+2025-06-06T06:50:25.389Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:25.390Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:25.521Z: Python process exited with code 1
+2025-06-06T06:50:25.521Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:25.522Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:25.552Z: Python process exited with code 0
+2025-06-06T06:50:25.553Z: Output: Program(body=[AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) any any
+{
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 2,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 2,
         "column": 0
       },
       "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:03.801Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:25.553Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:03.801Z: Diagnostics: []
-2025-06-05T13:30:03.804Z: Python process exited with code 0
-2025-06-05T13:30:03.804Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:25.554Z: Diagnostics: []
+2025-06-06T06:50:25.716Z: Python process exited with code 0
+2025-06-06T06:50:25.717Z: Output: Program(body=[AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) any any
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 2,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 2,
         "column": 0
       },
       "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:03.804Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:25.717Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:03.804Z: Diagnostics: []
-2025-06-05T13:30:04.047Z: Python process exited with code 0
-2025-06-05T13:30:04.047Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:25.718Z: Diagnostics: []
+2025-06-06T06:50:26.238Z: Python process exited with code 1
+2025-06-06T06:50:26.239Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:26.239Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:26.251Z: Python process exited with code 1
+2025-06-06T06:50:26.251Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='st', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 10}, 'end': {'line': 2, 'column': 12}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 12}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:26.252Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: st
+
+2025-06-06T06:50:26.253Z: Python process exited with code 1
+2025-06-06T06:50:26.253Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='s', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 9}, 'end': {'line': 2, 'column': 11}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 11}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+
+2025-06-06T06:50:26.254Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 43, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 25, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 433, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 213, in visitAssignStmt
+    decl_var_type = string_to_type_with_alias(node.var_type, self.type_env)
+  File "D:\pllm_c\type_system\type_checker.py", line 470, in string_to_type_with_alias
+    return string_to_type(type_str)
+  File "D:\pllm_c\type_system\type_pre.py", line 318, in string_to_type
+    raise ValueError(f"Unknown type string: {type_str}")
+ValueError: Unknown type string: s
+
+2025-06-06T06:50:26.296Z: Python process exited with code 0
+2025-06-06T06:50:26.296Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
-        "column": 0
-      },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.048Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:26.297Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.048Z: Diagnostics: []
-2025-06-05T13:30:04.048Z: Python process exited with code 0
-2025-06-05T13:30:04.048Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:26.297Z: Diagnostics: []
+2025-06-06T06:50:26.411Z: Python process exited with code 0
+2025-06-06T06:50:26.412Z: Output: Program(body=[AssignStmt(target=Identifier(name='x', position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 1}}), var_type='int', value=Constant(value=1, position={'start': {'line': 1, 'column': 11}, 'end': {'line': 1, 'column': 11}}), position={'start': {'line': 1, 'column': 1}, 'end': {'line': 1, 'column': 11}}), AssignStmt(target=Identifier(name='y', position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 1}}), var_type='str', value=Constant(value='"2"', position={'start': {'line': 2, 'column': 11}, 'end': {'line': 2, 'column': 13}}), position={'start': {'line': 2, 'column': 1}, 'end': {'line': 2, 'column': 13}}), AssignStmt(target=Identifier(name='z', position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 1}}), var_type='float', value=BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 1}, 'end': {'line': 3, 'column': 17}})], position={'start': {'line': 1, 'column': 1}, 'end': {'line': 3, 'column': 17}})
+BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
-        "column": 0
-      },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.049Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:50:26.413Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.049Z: Diagnostics: []
-2025-06-05T13:30:04.225Z: Python process exited with code 0
-2025-06-05T13:30:04.226Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:50:26.413Z: Diagnostics: []
+2025-06-06T06:52:05.623Z: Python process exited with code 0
+2025-06-06T06:52:05.625Z: Output: BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.226Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:52:05.625Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.226Z: Diagnostics: []
-2025-06-05T13:30:04.227Z: Python process exited with code 0
-2025-06-05T13:30:04.227Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:52:05.626Z: Diagnostics: []
+2025-06-06T06:52:05.630Z: Python process exited with code 0
+2025-06-06T06:52:05.631Z: Output: BinaryOp(left=Identifier(name='x', position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 13}}), op='+', right=Identifier(name='y', position={'start': {'line': 3, 'column': 17}, 'end': {'line': 3, 'column': 17}}), position={'start': {'line': 3, 'column': 13}, 'end': {'line': 3, 'column': 17}}) int str
+3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.227Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:52:05.632Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.228Z: Diagnostics: []
-2025-06-05T13:30:04.559Z: Python process exited with code 0
-2025-06-05T13:30:04.559Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:52:05.633Z: Diagnostics: []
+2025-06-06T06:53:26.369Z: Python process exited with code 0
+2025-06-06T06:53:26.371Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
-        "column": 0
-      },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.560Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:53:26.371Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.560Z: Diagnostics: []
-2025-06-05T13:30:04.561Z: Python process exited with code 0
-2025-06-05T13:30:04.562Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:53:26.372Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:53:26.372Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:53:26.373Z: Python process exited with code 0
+2025-06-06T06:53:26.373Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
-        "column": 0
-      },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.562Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:53:26.374Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.562Z: Diagnostics: []
-2025-06-05T13:30:04.839Z: Python process exited with code 0
-2025-06-05T13:30:04.840Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:53:26.374Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:53:26.374Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:52.203Z: Python process exited with code 0
+2025-06-06T06:56:52.205Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.840Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:56:52.206Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.840Z: Diagnostics: []
-2025-06-05T13:30:04.841Z: Python process exited with code 0
-2025-06-05T13:30:04.841Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:56:52.206Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:56:52.207Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:52.208Z: Python process exited with code 0
+2025-06-06T06:56:52.209Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.841Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:56:52.209Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.841Z: Diagnostics: []
-2025-06-05T13:30:04.970Z: Python process exited with code 0
-2025-06-05T13:30:04.970Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:56:52.209Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:56:52.210Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:54.225Z: Python process exited with code 0
+2025-06-06T06:56:54.226Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.971Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:56:54.226Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.971Z: Diagnostics: []
-2025-06-05T13:30:04.971Z: Python process exited with code 0
-2025-06-05T13:30:04.972Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:56:54.226Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:56:54.227Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:54.232Z: Python process exited with code 0
+2025-06-06T06:56:54.232Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:04.972Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:56:54.233Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:04.972Z: Diagnostics: []
-2025-06-05T13:30:05.264Z: Python process exited with code 0
-2025-06-05T13:30:05.265Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:56:54.233Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:56:54.234Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:54.240Z: Python process exited with code 0
+2025-06-06T06:56:54.240Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:54.240Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:54.241Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:54.241Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.374Z: Python process exited with code 0
+2025-06-06T06:56:55.375Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.375Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.375Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.376Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.382Z: Python process exited with code 0
+2025-06-06T06:56:55.383Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.384Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.384Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.384Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.444Z: Python process exited with code 0
+2025-06-06T06:56:55.445Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.446Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.447Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.448Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.463Z: Python process exited with code 0
+2025-06-06T06:56:55.464Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.464Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.465Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.465Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.476Z: Python process exited with code 0
+2025-06-06T06:56:55.476Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.477Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.477Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.477Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.478Z: Python process exited with code 0
+2025-06-06T06:56:55.478Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.479Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.479Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.479Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.653Z: Python process exited with code 0
+2025-06-06T06:56:55.653Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:56:55.654Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:55.654Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:56:55.655Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:56:55.732Z: Python process exited with code 0
+2025-06-06T06:56:55.733Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
-        "column": 0
-      },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:05.265Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:56:55.733Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.265Z: Diagnostics: []
-2025-06-05T13:30:05.266Z: Python process exited with code 0
-2025-06-05T13:30:05.266Z: Output: 56:9 ~ 56:13 : Type Error
+2025-06-06T06:56:55.733Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:56:55.734Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:56.247Z: Python process exited with code 0
+2025-06-06T06:56:56.247Z: Output: 3:13 ~ 3:17 : Type Error
 {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 0
-      },
-      "end": {
-        "line": 6,
-        "column": 0
-      },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
+        "line": 3,
         "column": 13
+      },
+      "end": {
+        "line": 3,
+        "column": 17
       },
       "message": "Type Error"
     }
   ]
 }
 
-2025-06-05T13:30:05.266Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:56:56.248Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.266Z: Diagnostics: []
-2025-06-05T13:30:05.441Z: Python process exited with code 0
-2025-06-05T13:30:05.441Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:56:56.248Z: Parsed diagnostics: [{"start":{"line":3,"column":13},"end":{"line":3,"column":17},"message":"Type Error"}]
+2025-06-06T06:56:56.248Z: Diagnostics: [{"severity":1,"range":{"start":{"line":2,"character":13},"end":{"line":2,"character":23}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:56:58.324Z: Python process exited with code 0
+2025-06-06T06:56:58.324Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:56:58.324Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:58.325Z: Parsed diagnostics: []
+2025-06-06T06:56:58.325Z: Diagnostics: []
+2025-06-06T06:56:58.329Z: Python process exited with code 0
+2025-06-06T06:56:58.330Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:56:58.330Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:58.331Z: Parsed diagnostics: []
+2025-06-06T06:56:58.331Z: Diagnostics: []
+2025-06-06T06:56:58.487Z: Python process exited with code 0
+2025-06-06T06:56:58.488Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:56:58.488Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:58.489Z: Parsed diagnostics: []
+2025-06-06T06:56:58.489Z: Diagnostics: []
+2025-06-06T06:56:58.507Z: Python process exited with code 0
+2025-06-06T06:56:58.507Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:56:58.508Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:56:58.508Z: Parsed diagnostics: []
+2025-06-06T06:56:58.508Z: Diagnostics: []
+2025-06-06T06:57:00.024Z: Python process exited with code 0
+2025-06-06T06:57:00.025Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:00.025Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:00.025Z: Parsed diagnostics: []
+2025-06-06T06:57:00.026Z: Diagnostics: []
+2025-06-06T06:57:00.026Z: Python process exited with code 0
+2025-06-06T06:57:00.027Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:00.027Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:00.027Z: Parsed diagnostics: []
+2025-06-06T06:57:00.028Z: Diagnostics: []
+2025-06-06T06:57:00.314Z: Python process exited with code 0
+2025-06-06T06:57:00.315Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.442Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:00.315Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.442Z: Diagnostics: []
-2025-06-05T13:30:05.452Z: Python process exited with code 0
-2025-06-05T13:30:05.452Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:00.316Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:00.316Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:00.351Z: Python process exited with code 0
+2025-06-06T06:57:00.351Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '='"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.453Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:00.352Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.453Z: Diagnostics: []
-2025-06-05T13:30:05.606Z: Python process exited with code 0
-2025-06-05T13:30:05.607Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:00.352Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:00.353Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:00.419Z: Python process exited with code 0
+2025-06-06T06:57:00.420Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.607Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:00.420Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.608Z: Diagnostics: []
-2025-06-05T13:30:05.616Z: Python process exited with code 0
-2025-06-05T13:30:05.616Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:00.421Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:00.421Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:00.492Z: Python process exited with code 0
+2025-06-06T06:57:00.493Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.617Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:00.493Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.617Z: Diagnostics: []
-2025-06-05T13:30:05.721Z: Python process exited with code 0
-2025-06-05T13:30:05.722Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:00.494Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:00.494Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:00.550Z: Python process exited with code 0
+2025-06-06T06:57:00.551Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token 'in'"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.722Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:00.551Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.722Z: Diagnostics: []
-2025-06-05T13:30:05.724Z: Python process exited with code 0
-2025-06-05T13:30:05.724Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:00.552Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:00.552Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:00.564Z: Python process exited with code 0
+2025-06-06T06:57:00.564Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 6,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token 'in'"
-    },
-    {
-      "start": {
-        "line": 43,
-        "column": 0
-      },
-      "end": {
-        "line": 43,
-        "column": 0
-      },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.725Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:00.565Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.725Z: Diagnostics: []
-2025-06-05T13:30:05.969Z: Python process exited with code 0
-2025-06-05T13:30:05.970Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:00.565Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:00.565Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:02.139Z: Python process exited with code 0
+2025-06-06T06:57:02.140Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.970Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:02.140Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.970Z: Diagnostics: []
-2025-06-05T13:30:05.970Z: Python process exited with code 0
-2025-06-05T13:30:05.971Z: Output: 56:9 ~ 56:13 : Type Error
-{
+2025-06-06T06:57:02.141Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:02.141Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:02.143Z: Python process exited with code 0
+2025-06-06T06:57:02.143Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 43,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 56,
-        "column": 9
-      },
-      "end": {
-        "line": 56,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:30:05.971Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:02.144Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:30:05.971Z: Diagnostics: []
-2025-06-05T13:30:22.210Z: Python process exited with code 0
-2025-06-05T13:30:22.211Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:02.144Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:02.145Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:02.153Z: Python process exited with code 0
+2025-06-06T06:57:02.154Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:30:22.211Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:30:22.212Z: Diagnostics: []
-2025-06-05T13:30:22.214Z: Python process exited with code 0
-2025-06-05T13:30:22.214Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:30:22.214Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:30:22.215Z: Diagnostics: []
-2025-06-05T13:31:01.317Z: Python process exited with code 0
-2025-06-05T13:31:01.318Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:31:01.319Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:31:01.319Z: Diagnostics: []
-2025-06-05T13:31:01.320Z: Python process exited with code 0
-2025-06-05T13:31:01.320Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:31:01.321Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:31:01.321Z: Diagnostics: []
-2025-06-05T13:31:01.667Z: Python process exited with code 0
-2025-06-05T13:31:01.668Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:31:01.668Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:31:01.668Z: Diagnostics: []
-2025-06-05T13:36:36.687Z: Python process exited with code 0
-2025-06-05T13:36:36.689Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:36:36.689Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:36:36.689Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:36.690Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:36.691Z: Python process exited with code 0
-2025-06-05T13:36:36.691Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:36:36.691Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:36:36.691Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:36.692Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:37.013Z: Python process exited with code 0
-2025-06-05T13:36:37.013Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:36:37.014Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:36:37.014Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:37.014Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:45.303Z: Python process exited with code 0
-2025-06-05T13:36:45.303Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:36:45.304Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:36:45.304Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:45.304Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:45.305Z: Python process exited with code 0
-2025-06-05T13:36:45.305Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 6,
-        "column": 14
-      },
-      "end": {
-        "line": 6,
-        "column": 18
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
-    }
-  ]
-}
-
-2025-06-05T13:36:45.305Z: Error: WARNING: Token 'NEWLINE' defined, but not used
-WARNING: Token 'TYPE_TUPLE' defined, but not used
-WARNING: There are 2 unused tokens
-
-2025-06-05T13:36:45.306Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:45.306Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:47.535Z: Python process exited with code 0
-2025-06-05T13:36:47.535Z: Output: {
-  "result": "error",
-  "diagnostics": [
-    {
-      "start": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 57,
-        "column": 0
-      },
-      "end": {
-        "line": 57,
-        "column": 0
-      },
-      "message": "Syntax error at token ''"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:47.536Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:02.154Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:47.536Z: Parsed diagnostics: [{"start":{"line":56,"column":0},"end":{"line":56,"column":0},"message":"Syntax error at token '\n    '"},{"start":{"line":57,"column":0},"end":{"line":57,"column":0},"message":"Syntax error at token ''"}]
-2025-06-05T13:36:47.536Z: Diagnostics: [{"severity":1,"range":{"start":{"line":55,"character":0},"end":{"line":55,"character":10}},"message":"Syntax error at token '\n    '","source":"diagnostics"},{"severity":1,"range":{"start":{"line":56,"character":0},"end":{"line":56,"character":10}},"message":"Syntax error at token ''","source":"diagnostics"}]
-2025-06-05T13:36:47.537Z: Python process exited with code 0
-2025-06-05T13:36:47.537Z: Output: {
+2025-06-06T06:57:02.155Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:02.155Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:02.157Z: Python process exited with code 0
+2025-06-06T06:57:02.158Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:02.158Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:02.159Z: Parsed diagnostics: []
+2025-06-06T06:57:02.159Z: Diagnostics: []
+2025-06-06T06:57:02.211Z: Python process exited with code 0
+2025-06-06T06:57:02.212Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:02.212Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:02.212Z: Parsed diagnostics: []
+2025-06-06T06:57:02.213Z: Diagnostics: []
+2025-06-06T06:57:02.293Z: Python process exited with code 0
+2025-06-06T06:57:02.293Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 57,
-        "column": 0
-      },
-      "end": {
-        "line": 57,
-        "column": 0
-      },
-      "message": "Syntax error at token ''"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:47.537Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:02.294Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:47.538Z: Parsed diagnostics: [{"start":{"line":56,"column":0},"end":{"line":56,"column":0},"message":"Syntax error at token '\n    '"},{"start":{"line":57,"column":0},"end":{"line":57,"column":0},"message":"Syntax error at token ''"}]
-2025-06-05T13:36:47.538Z: Diagnostics: [{"severity":1,"range":{"start":{"line":55,"character":0},"end":{"line":55,"character":10}},"message":"Syntax error at token '\n    '","source":"diagnostics"},{"severity":1,"range":{"start":{"line":56,"character":0},"end":{"line":56,"character":10}},"message":"Syntax error at token ''","source":"diagnostics"}]
-2025-06-05T13:36:47.724Z: Python process exited with code 0
-2025-06-05T13:36:47.725Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:02.294Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:02.295Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:02.414Z: Python process exited with code 0
+2025-06-06T06:57:02.415Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 6,
-        "column": 18
+        "line": 0,
+        "column": 0
       },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:47.725Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:02.415Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:47.725Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:47.725Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:47.726Z: Python process exited with code 0
-2025-06-05T13:36:47.726Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:02.416Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:02.416Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:03.644Z: Python process exited with code 0
+2025-06-06T06:57:03.644Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 6,
-        "column": 18
+        "line": 0,
+        "column": 0
       },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:47.726Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:03.645Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:47.726Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:47.727Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:48.645Z: Python process exited with code 0
-2025-06-05T13:36:48.645Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:03.645Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:03.645Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:03.663Z: Python process exited with code 0
+2025-06-06T06:57:03.664Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 6,
-        "column": 18
+        "line": 0,
+        "column": 0
       },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:48.646Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:03.665Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:48.646Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:48.646Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:48.647Z: Python process exited with code 0
-2025-06-05T13:36:48.647Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:03.665Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:03.666Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:03.699Z: Python process exited with code 0
+2025-06-06T06:57:03.699Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 6,
-        "column": 18
+        "line": 0,
+        "column": 0
       },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:48.648Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:03.700Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:48.648Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:48.648Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:49.781Z: Python process exited with code 0
-2025-06-05T13:36:49.782Z: Output: {
+2025-06-06T06:57:03.700Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:03.701Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:03.851Z: Python process exited with code 0
+2025-06-06T06:57:03.852Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 57,
-        "column": 0
-      },
-      "end": {
-        "line": 57,
-        "column": 0
-      },
-      "message": "Syntax error at token ''"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:49.782Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:03.852Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:49.782Z: Parsed diagnostics: [{"start":{"line":56,"column":0},"end":{"line":56,"column":0},"message":"Syntax error at token '\n    '"},{"start":{"line":57,"column":0},"end":{"line":57,"column":0},"message":"Syntax error at token ''"}]
-2025-06-05T13:36:49.782Z: Diagnostics: [{"severity":1,"range":{"start":{"line":55,"character":0},"end":{"line":55,"character":10}},"message":"Syntax error at token '\n    '","source":"diagnostics"},{"severity":1,"range":{"start":{"line":56,"character":0},"end":{"line":56,"character":10}},"message":"Syntax error at token ''","source":"diagnostics"}]
-2025-06-05T13:36:49.783Z: Python process exited with code 0
-2025-06-05T13:36:49.783Z: Output: {
+2025-06-06T06:57:03.853Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:03.854Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:08.495Z: Python process exited with code 0
+2025-06-06T06:57:08.496Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
       "end": {
-        "line": 56,
+        "line": 0,
         "column": 0
       },
-      "message": "Syntax error at token '\n    '"
-    },
-    {
-      "start": {
-        "line": 57,
-        "column": 0
-      },
-      "end": {
-        "line": 57,
-        "column": 0
-      },
-      "message": "Syntax error at token ''"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:49.783Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:08.496Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:49.783Z: Parsed diagnostics: [{"start":{"line":56,"column":0},"end":{"line":56,"column":0},"message":"Syntax error at token '\n    '"},{"start":{"line":57,"column":0},"end":{"line":57,"column":0},"message":"Syntax error at token ''"}]
-2025-06-05T13:36:49.784Z: Diagnostics: [{"severity":1,"range":{"start":{"line":55,"character":0},"end":{"line":55,"character":10}},"message":"Syntax error at token '\n    '","source":"diagnostics"},{"severity":1,"range":{"start":{"line":56,"character":0},"end":{"line":56,"character":10}},"message":"Syntax error at token ''","source":"diagnostics"}]
-2025-06-05T13:36:52.492Z: Python process exited with code 0
-2025-06-05T13:36:52.493Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:08.496Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:08.497Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:08.498Z: Python process exited with code 0
+2025-06-06T06:57:08.498Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 6,
-        "column": 18
+        "line": 0,
+        "column": 0
       },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:52.493Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:08.499Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:52.493Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:52.494Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
-2025-06-05T13:36:52.494Z: Python process exited with code 0
-2025-06-05T13:36:52.494Z: Output: 6:14 ~ 6:18 : Type Error
-42:9 ~ 42:13 : Type Error
-55:9 ~ 55:13 : Type Error
-{
+2025-06-06T06:57:08.499Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:08.499Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:08.665Z: Python process exited with code 0
+2025-06-06T06:57:08.665Z: Output: {
   "result": "error",
   "diagnostics": [
     {
       "start": {
-        "line": 6,
-        "column": 14
+        "line": 0,
+        "column": 0
       },
       "end": {
-        "line": 6,
-        "column": 18
+        "line": 0,
+        "column": 0
       },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 42,
-        "column": 9
-      },
-      "end": {
-        "line": 42,
-        "column": 13
-      },
-      "message": "Type Error"
-    },
-    {
-      "start": {
-        "line": 55,
-        "column": 9
-      },
-      "end": {
-        "line": 55,
-        "column": 13
-      },
-      "message": "Type Error"
+      "message": "Syntax error at EOF"
     }
   ]
 }
 
-2025-06-05T13:36:52.495Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+2025-06-06T06:57:08.665Z: Error: WARNING: Token 'NEWLINE' defined, but not used
 WARNING: Token 'TYPE_TUPLE' defined, but not used
 WARNING: There are 2 unused tokens
 
-2025-06-05T13:36:52.495Z: Parsed diagnostics: [{"start":{"line":6,"column":14},"end":{"line":6,"column":18},"message":"Type Error"},{"start":{"line":42,"column":9},"end":{"line":42,"column":13},"message":"Type Error"},{"start":{"line":55,"column":9},"end":{"line":55,"column":13},"message":"Type Error"}]
-2025-06-05T13:36:52.495Z: Diagnostics: [{"severity":1,"range":{"start":{"line":5,"character":14},"end":{"line":5,"character":24}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":41,"character":9},"end":{"line":41,"character":19}},"message":"Type Error","source":"diagnostics"},{"severity":1,"range":{"start":{"line":54,"character":9},"end":{"line":54,"character":19}},"message":"Type Error","source":"diagnostics"}]
+2025-06-06T06:57:08.666Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:08.666Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:08.675Z: Python process exited with code 0
+2025-06-06T06:57:08.675Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:08.676Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:08.676Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:08.677Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:08.805Z: Python process exited with code 0
+2025-06-06T06:57:08.806Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:08.806Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:08.807Z: Parsed diagnostics: []
+2025-06-06T06:57:08.807Z: Diagnostics: []
+2025-06-06T06:57:08.850Z: Python process exited with code 0
+2025-06-06T06:57:08.851Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:08.851Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:08.852Z: Parsed diagnostics: []
+2025-06-06T06:57:08.853Z: Diagnostics: []
+2025-06-06T06:57:10.348Z: Python process exited with code 0
+2025-06-06T06:57:10.349Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:10.350Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:10.351Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:10.351Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:10.352Z: Python process exited with code 0
+2025-06-06T06:57:10.352Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:10.353Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:10.353Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:10.354Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:10.470Z: Python process exited with code 0
+2025-06-06T06:57:10.471Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:10.471Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:10.472Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:10.472Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:10.549Z: Python process exited with code 0
+2025-06-06T06:57:10.549Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:10.550Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:10.550Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:10.551Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:10.552Z: Python process exited with code 0
+2025-06-06T06:57:10.553Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:10.553Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:10.554Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:10.554Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:10.720Z: Python process exited with code 0
+2025-06-06T06:57:10.720Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:10.721Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:10.721Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:10.721Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:11.045Z: Python process exited with code 0
+2025-06-06T06:57:11.045Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:11.046Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:11.046Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:11.046Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:11.053Z: Python process exited with code 0
+2025-06-06T06:57:11.053Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:11.054Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:11.054Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:11.054Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:11.379Z: Python process exited with code 0
+2025-06-06T06:57:11.380Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:11.380Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:11.380Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:11.381Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:11.389Z: Python process exited with code 0
+2025-06-06T06:57:11.389Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:11.389Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:11.390Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:11.390Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:11.537Z: Python process exited with code 0
+2025-06-06T06:57:11.537Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:11.537Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:11.538Z: Parsed diagnostics: []
+2025-06-06T06:57:11.538Z: Diagnostics: []
+2025-06-06T06:57:11.569Z: Python process exited with code 0
+2025-06-06T06:57:11.569Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:11.570Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:11.570Z: Parsed diagnostics: []
+2025-06-06T06:57:11.570Z: Diagnostics: []
+2025-06-06T06:57:18.756Z: Python process exited with code 0
+2025-06-06T06:57:18.756Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:18.757Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:18.757Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:18.758Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:18.768Z: Python process exited with code 0
+2025-06-06T06:57:18.769Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:18.770Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:18.770Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:18.771Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:18.827Z: Python process exited with code 1
+2025-06-06T06:57:18.827Z: Output: 
+2025-06-06T06:57:18.828Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 42, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 24, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 432, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 217, in visitAssignStmt
+    if not exp_var_type.is_subtype_of(decl_var_type):
+AttributeError: 'NoneType' object has no attribute 'is_subtype_of'
+
+2025-06-06T06:57:18.836Z: Python process exited with code 1
+2025-06-06T06:57:18.837Z: Output: 
+2025-06-06T06:57:18.838Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 42, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 24, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 432, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 217, in visitAssignStmt
+    if not exp_var_type.is_subtype_of(decl_var_type):
+AttributeError: 'NoneType' object has no attribute 'is_subtype_of'
+
+2025-06-06T06:57:18.950Z: Python process exited with code 1
+2025-06-06T06:57:18.951Z: Output: 
+2025-06-06T06:57:18.951Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 42, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 24, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 432, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 217, in visitAssignStmt
+    if not exp_var_type.is_subtype_of(decl_var_type):
+AttributeError: 'NoneType' object has no attribute 'is_subtype_of'
+
+2025-06-06T06:57:19.363Z: Python process exited with code 1
+2025-06-06T06:57:19.364Z: Output: 
+2025-06-06T06:57:19.364Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 42, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 24, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 432, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 217, in visitAssignStmt
+    if not exp_var_type.is_subtype_of(decl_var_type):
+AttributeError: 'NoneType' object has no attribute 'is_subtype_of'
+
+2025-06-06T06:57:19.365Z: Python process exited with code 1
+2025-06-06T06:57:19.366Z: Output: 
+2025-06-06T06:57:19.366Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+Traceback (most recent call last):
+  File "D:\pllm_c\diagnostics.py", line 42, in <module>
+    diagnostics = generate_diagnostics(source_code)
+  File "D:\pllm_c\diagnostics.py", line 24, in generate_diagnostics
+    type_errors = check_types(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 432, in check_types
+    type_checker.checkProgram(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 52, in checkProgram
+    self.visit(program_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 67, in visitProgram
+    self.visit(child)
+  File "D:\pllm_c\type_system\type_checker.py", line 58, in visit
+    return visitor(ast_node)
+  File "D:\pllm_c\type_system\type_checker.py", line 217, in visitAssignStmt
+    if not exp_var_type.is_subtype_of(decl_var_type):
+AttributeError: 'NoneType' object has no attribute 'is_subtype_of'
+
+2025-06-06T06:57:19.641Z: Python process exited with code 0
+2025-06-06T06:57:19.642Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:19.642Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:19.642Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:19.643Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:19.647Z: Python process exited with code 0
+2025-06-06T06:57:19.647Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T06:57:19.648Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:19.648Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T06:57:19.648Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T06:57:19.965Z: Python process exited with code 0
+2025-06-06T06:57:19.966Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:19.966Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:19.966Z: Parsed diagnostics: []
+2025-06-06T06:57:19.967Z: Diagnostics: []
+2025-06-06T06:57:19.972Z: Python process exited with code 0
+2025-06-06T06:57:19.973Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T06:57:19.974Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T06:57:19.974Z: Parsed diagnostics: []
+2025-06-06T06:57:19.975Z: Diagnostics: []
+2025-06-06T07:00:08.398Z: Python process exited with code 0
+2025-06-06T07:00:08.400Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T07:00:08.400Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:08.401Z: Parsed diagnostics: []
+2025-06-06T07:00:08.401Z: Diagnostics: []
+2025-06-06T07:00:08.402Z: Python process exited with code 0
+2025-06-06T07:00:08.402Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T07:00:08.403Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:08.403Z: Parsed diagnostics: []
+2025-06-06T07:00:08.404Z: Diagnostics: []
+2025-06-06T07:00:13.840Z: Python process exited with code 0
+2025-06-06T07:00:13.841Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:13.841Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:13.842Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:13.842Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:13.849Z: Python process exited with code 0
+2025-06-06T07:00:13.850Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:13.850Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:13.851Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:13.851Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:13.875Z: Python process exited with code 0
+2025-06-06T07:00:13.876Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:13.876Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:13.877Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:13.877Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:13.944Z: Python process exited with code 0
+2025-06-06T07:00:13.945Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:13.946Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:13.946Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:13.947Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:14.061Z: Python process exited with code 0
+2025-06-06T07:00:14.061Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:14.061Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:14.062Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:14.062Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:14.733Z: Python process exited with code 0
+2025-06-06T07:00:14.733Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:14.734Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:14.734Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:14.735Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:14.735Z: Python process exited with code 0
+2025-06-06T07:00:14.736Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:14.736Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:14.737Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:14.737Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:14.885Z: Python process exited with code 0
+2025-06-06T07:00:14.885Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:14.885Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:14.886Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:14.886Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:14.908Z: Python process exited with code 0
+2025-06-06T07:00:14.909Z: Output: {
+  "result": "error",
+  "diagnostics": [
+    {
+      "start": {
+        "line": 0,
+        "column": 0
+      },
+      "end": {
+        "line": 0,
+        "column": 0
+      },
+      "message": "Syntax error at EOF"
+    }
+  ]
+}
+
+2025-06-06T07:00:14.909Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:14.910Z: Parsed diagnostics: [{"start":{"line":0,"column":0},"end":{"line":0,"column":0},"message":"Syntax error at EOF"}]
+2025-06-06T07:00:14.910Z: Diagnostics: [{"severity":1,"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":10}},"message":"Syntax error at EOF","source":"diagnostics"}]
+2025-06-06T07:00:14.984Z: Python process exited with code 0
+2025-06-06T07:00:14.985Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T07:00:14.985Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:14.985Z: Parsed diagnostics: []
+2025-06-06T07:00:14.986Z: Diagnostics: []
+2025-06-06T07:00:15.080Z: Python process exited with code 0
+2025-06-06T07:00:15.080Z: Output: {
+  "result": "success",
+  "diagnostics": []
+}
+
+2025-06-06T07:00:15.081Z: Error: WARNING: Token 'NEWLINE' defined, but not used
+WARNING: Token 'TYPE_TUPLE' defined, but not used
+WARNING: There are 2 unused tokens
+
+2025-06-06T07:00:15.081Z: Parsed diagnostics: []
+2025-06-06T07:00:15.081Z: Diagnostics: []
